@@ -2,13 +2,24 @@
 .vscode/
 .vscode-shared/
 .local/
+.idea/
+
+# ignore OS files
 .DS_Store
+Thumbs.db
+*.swp
+*.swo
 
 # ignore dependencies
-node_modules
+node_modules/
 
 # ignore env files
 .env
 .env*
 .env.local
 .env.production
+
+#ignore system data + secrets
+.ssh/
+.pki/
+.local/
